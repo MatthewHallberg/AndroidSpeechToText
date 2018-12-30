@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\VoiceController.cs" />
-    <None Include="Assets\Scenes\AndroidManifest.xml" />
+    <Compile Include="Assets\Scripts\VoiceTest.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/matthewhallberg/Desktop/AndroidUnitySpeechToText/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -3,10 +3,11 @@ using UnityEngine.UI;
 
 public class VoiceController : MonoBehaviour {
 
-
-
     AndroidJavaObject activity;
     AndroidJavaObject plugin;
+
+    public delegate void OnResultRecieved(string result);
+    public static OnResultRecieved resultRecieved;
 
     private void Start() {
         InitPlugin();
@@ -33,7 +34,7 @@ public class VoiceController : MonoBehaviour {
     /// <param name="recognizedText">recognizedText.</param>
     public void OnVoiceResult(string recognizedText) {
         Debug.Log(recognizedText);
-
+        resultRecieved?.Invoke(recognizedText);
     }
 
     /// <summary>
@@ -42,7 +43,6 @@ public class VoiceController : MonoBehaviour {
     /// <param name="error">Error.</param>
     public void OnErrorResult(string error) {
         Debug.Log(error);
-
     }
 
     public void GetSpeech() {

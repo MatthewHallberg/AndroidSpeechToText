@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{D38798A3-0926-4D28-9307-D82577F553B9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VoiceController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VoiceTest.cs">
     <Files>
-      <File FileName="Assets/Scripts/VoiceController.cs" Line="28" Column="8" />
+      <File FileName="Assets/Scripts/VoiceController.cs" Line="45" Column="26" />
+      <File FileName="Assets/Scripts/VoiceTest.cs" Line="30" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
